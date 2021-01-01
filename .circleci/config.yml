@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: npm i
       - save_cache:
-          keys:
+          key:
             - "npm-packages"
           paths:
             - /src/node_modules
